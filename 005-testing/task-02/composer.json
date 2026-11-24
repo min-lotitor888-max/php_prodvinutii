@@ -1,0 +1,19 @@
+{
+    "name": "student/005-testing",
+    "description": "Домашнее задание 2.2 — тестирование",
+    "type": "project",
+    "license": "proprietary",
+    "require-dev": {
+        "phpunit/phpunit": "^12.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    }
+}
